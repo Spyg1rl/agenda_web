@@ -13,11 +13,11 @@ export default function Main() {
        <Routes>
         <Route
             path="/acessar-conta"
-            element={ <AcessarConta/> }  
+            element={ <AcessarConta /> }  
         />
         <Route
             path="/crie-sua-conta"
-            element={ <CrieSuaConta/> }  
+            element={ <CrieSuaConta /> }  
         />
        </Routes> 
     )

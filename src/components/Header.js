@@ -15,17 +15,16 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink className="nav-link active" aria-current="page" to="/acessar-conta">Acessar Conta</NavLink>
+                            <NavLink className="nav-link active" aria-current="page" 
+                                to="/acessar-conta">Acessar Conta
+                            </NavLink>
                         </li>
-                        <li class="nav-item">
-                            <NavLink class="nav-link" href="#">Crie sua conta</NavLink>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" 
+                                to="/crie-sua-conta">Crie sua conta
+                            </NavLink>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" to="/crie-sua-conta" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            
-                            </a>
-                        </li>
-
+                        
                     </ul>
                 </div>
             </div>
